@@ -1,0 +1,35 @@
+<div class="wrapper">
+    <div class="body">
+        <h1 class="titulo">Create Account</h1> <br>
+        <h2 class="titulo2">Create an account so you can <br> explore all the existing jobs</h2> <br>
+
+        <div class="form-floating mb-3 mt-5">
+            <input type="email" [(ngModel)]="username" class="form-control"  placeholder="Ingrese Email">
+            <label >Email </label>
+        </div>
+        <div class="form-floating mb-3">
+            <input type="password" [(ngModel)]="password" class="form-control"  placeholder="Ingrese password">
+            <label > Password </label>
+        </div>
+        <div class="form-floating mb-3">
+            <input type="password" [(ngModel)]="confirmPassword" class="form-control"  placeholder="Confirmar password">
+            <label > Confirm Password </label>
+        </div>
+        <br>
+        <!-- Boton Sign up -->
+        <button class="button" type="button" (click)="addUser()" >Sign up</button>    
+
+        
+        <p class="mt-3">Already have an account <a routerLink="/signIn">here</a></p> 
+        <p class="other mt-5"> Or continue with</p>
+
+        <!-- crear boton usando los iconos de arriba -->
+        <div class="socials">
+            <button class="btn btn-outline-dark bi bi-google" type="button"></button>
+            <button class="btn btn-outline-dark bi bi-facebook" type="button"></button>
+            <button class="btn btn-outline-dark bi bi-apple" type="button"></button>
+            
+        </div>       
+        
+    </div>
+</div>

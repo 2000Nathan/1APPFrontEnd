@@ -1,0 +1,83 @@
+.wrapper {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5f5;
+    height: 100%;
+    font-weight: bold;
+}
+.titulo, .other{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1F41BB;
+    font-weight: bold;
+
+}
+.titulo2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+/*     font-weight: bold;
+ */
+}
+/* que las etiquetas p no sean bold */
+p {
+    color: #494949;
+    font-weight: none;
+    text-align: center;
+}
+a {
+    font-weight: normal;
+    text-decoration: none;
+    color: #1F41BB;
+    border-radius: none;
+}
+body {
+    max-width: 300px;
+    width: 100%;
+    text-align: center;
+}
+button{
+    background-color: #1F41BB;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* efecto cursor */
+    cursor: pointer;
+    
+}
+.socials{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    gap: 10px;
+}
+
+.socials button {
+    width: 50px; /* Ancho de los botones */
+    height: 50px; /* Altura de los botones */
+    border-radius: 15px;
+    background-color: #ECECEC;
+}
+
+.bi::before {
+    color: black;
+}
+
+.forgot-pass{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.form-floating label{
+    font-weight: normal;
+}
